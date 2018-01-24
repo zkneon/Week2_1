@@ -10,19 +10,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "onCreate()", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onPause() {
-        Toast.makeText(this, "onPause()", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onPause()", Toast.LENGTH_SHORT).show();
         super.onPause();
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this, "onRestart()", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onRestart()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
